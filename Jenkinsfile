@@ -8,7 +8,7 @@ pipeline {
     }
     stage('K8s') {
       steps {
-        sh 'kubectl set image deployments/hello-node lab12=cyic/lab12:v1.0'
+        sh 'kubectl set image deployments/hello-nodee lab12=cyic/lab12:v1.0'
       }
     }
   }
